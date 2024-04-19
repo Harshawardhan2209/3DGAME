@@ -1,0 +1,60 @@
+.search {
+    margin-left: 30px;
+}
+
+.res-container {
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.body {
+    margin-top: 30px;
+}
+
+.filter {
+    display: flex;
+    top: 115px;
+    position: center;
+}
+
+.search-bar {
+    height: 20px;
+    margin: 9px;
+    border-radius: 2px;
+    color: #a73110;
+}
+
+.search-btn {
+    height: max-content;
+    padding: 10px 10px;
+    background-color: #a73110;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filter-btn {
+    height: max-content;
+    padding: 10px 10px;
+    margin-left: 1%;
+    margin-top: 5px;
+    background-color: #a73110;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.shimmer-card {
+    background-color: #36454F;
+    width: 180px;
+    height: 300px;
+    margin: 18px;
+    border-radius: 15px;
+}
+
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;  
+}
