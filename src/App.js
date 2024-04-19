@@ -6,6 +6,8 @@ import Error from "./components/Error";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import ShimmerCards from "./components/ShimmerCards";
 import Community from "./components/Community";
+import GalaxyView from "./components/GalaxyView";
+
 
 const AppLayout = () => {
   return (
@@ -32,7 +34,11 @@ const appRouter = createBrowserRouter([
       {
         path: "/community",
         element: <Community />,
-      }
+      },
+      {
+        path: "/galaxy",
+        element: <GalaxyView />,
+      },
     ],
     errorElement: <Error />,
   },

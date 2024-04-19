@@ -1,8 +1,8 @@
-import GameScene from "./GameScene";
+import GalaxyView from "./GalaxyView";
 const Community = () => {
     return (
         <div>
-            <GameScene/>
+           
         </div>
     )
 }
