@@ -19,9 +19,9 @@ const Header = () => {
                     <h5><Link to="/about">About</Link></h5>
                 </li>
                 <li className="px-4">
-                    <h5><Link to="/contact">Contact Us</Link></h5>
+                    <h5><Link to="/community">Community</Link></h5>
                 </li>
-                <li><h5>Cart</h5></li>
+                <li><h5>Support</h5></li>
                 <button className='px-4' onClick={() => {
                     btnName === "Login" ?
                     setBtnName('Logout') : setBtnName('Login');
